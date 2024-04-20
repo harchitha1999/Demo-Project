@@ -1,0 +1,43 @@
+.box{
+width: 400px;
+height: 600px;
+/* background-color: aqua; */
+box-shadow:0px 0px 10px 5px rgb(247, 103, 25);
+margin: 40px;
+background-image: url(https://images.unsplash.com/photo-1483232539664-d89822fb5d3e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGhvdG8lMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww);
+
+background-size: cover;
+
+
+p{
+
+
+color: rgb(151, 155, 33);
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 40px;
+text-align: right;
+opacity: 0.6;
+letter-spacing: 4px;
+position: fixed;
+font-weight: 900;
+top: 300px;
+left: 160px;  
+
+
+}
+
+
+#form{
+
+
+margin: 30px ;
+padding-top: 40px;
+color: aliceblue;
+font-weight: bolder;
+font-size: 20px;
+text-align: center;
+
+}
+
+
+}

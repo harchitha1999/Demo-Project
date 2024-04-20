@@ -1,0 +1,28 @@
+.box{
+    width: 1000px;
+    height: 600px;
+    margin: 40px;
+    background-color: aqua;
+   
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg);
+    background-size: cover;
+
+
+    p{
+
+
+        color: rgb(235, 85, 170);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 90px;
+        padding-top: 250px;
+        text-align: center;
+        opacity: 0.6;
+        letter-spacing: 4px;
+
+
+
+    }
+
+
+
+}
