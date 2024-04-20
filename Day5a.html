@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Tac+One&display=swap" rel="stylesheet">
+
+<style>
+    h1{
+        font-family: "Dancing Script", cursive;
+
+        color: transparent;
+background-image: linear-gradient(0deg,red,green,yellow,blue,pink,brown);
+-webkit-background-clip: text;
+font-size: 40px;
+font-weight: bolder;
+letter-spacing: 3px;
+text-decoration: underline;
+scale: 0.5;
+transition: 2s;
+
+}
+
+h1:hover{
+    scale: 1;
+    
+}
+
+
+#mybox{
+   
+width: 200px;
+height: 100px;
+background-color: aqua;
+animation-name: mybox;
+animation-duration: 4s;
+animation-iteration-count: 20;
+
+}
+
+
+@keyframes mybox{
+
+    from{
+
+        background-color: rgb(225, 245, 147);
+   width: 20px;
+   height: 20px;
+  
+    }
+
+to{
+
+background-color: hotpink;
+/* width: 200px;
+   height: 200px; */
+
+}
+
+
+}
+
+
+
+</style>
+
+</head>
+<body>
+
+
+    <div id="mybox" ><h1>hello</h1></div>
+    <h1>hello</h1>
+
+</body>
+</html>
